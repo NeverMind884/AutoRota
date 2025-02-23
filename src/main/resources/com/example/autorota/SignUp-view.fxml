@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autorota.SignUpController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #74b2e8;">
+         <children>
+            <ImageView fitHeight="90.0" fitWidth="90.0" opacity="0.25" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../../../../../../images/calendar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="191.0" layoutY="25.0" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Light" size="64.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="136.0" layoutY="154.0" text="Firstname" />
+      <TextField fx:id="tField1" layoutX="136.0" layoutY="171.0" promptText="Firstname" />
+      <Label layoutX="320.0" layoutY="154.0" text="Lastname" />
+      <TextField fx:id="tField2" layoutX="320.0" layoutY="171.0" />
+      <Label layoutX="136.0" layoutY="206.0" text="Username" />
+      <TextField fx:id="tField3" layoutX="136.0" layoutY="223.0" />
+      <Label layoutX="136.0" layoutY="258.0" text="Password" />
+      <PasswordField fx:id="pField1" layoutX="136.0" layoutY="274.0" />
+      <Label layoutX="321.0" layoutY="257.0" text="Repeat Password" />
+      <PasswordField fx:id="pField2" layoutX="320.0" layoutY="274.0" />
+      <Button fx:id="subButton" layoutX="257.0" layoutY="310.0" mnemonicParsing="false" onAction="#submit" style="-fx-background-color: #74b2e8;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

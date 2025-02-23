@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.autorota.OrgCreationController">
+   <children>
+      <AnchorPane prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: #74b2e8;">
+         <children>
+             <ImageView fitHeight="90.0" fitWidth="80.0" opacity="0.25" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                 <image>
+                     <Image url="@../../../../../../images/calendar.png" />
+                 </image>
+             </ImageView>
+            <Label layoutX="122.0" layoutY="23.0" text="Add your organisation" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Light" size="36.0" />
+               </font></Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="201.0" layoutY="117.0" prefHeight="27.0" prefWidth="158.0" text="Organisation Name" textFill="#74b2e8">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField layoutX="205.0" layoutY="153.0" promptText="Company name" />
+      <ComboBox editable="true" layoutX="205.0" layoutY="187.0" prefWidth="150.0" promptText="Add Department" />
+      <CheckBox layoutX="34.0" layoutY="249.0" mnemonicParsing="false" text="Monday" />
+      <CheckBox layoutX="109.0" layoutY="249.0" mnemonicParsing="false" text="Tuesday" />
+      <CheckBox layoutX="185.0" layoutY="249.0" mnemonicParsing="false" text="Wednesday" />
+      <CheckBox layoutX="280.0" layoutY="249.0" mnemonicParsing="false" text="Thursday" />
+      <CheckBox layoutX="359.0" layoutY="249.0" mnemonicParsing="false" text="Friday" />
+      <CheckBox layoutX="424.0" layoutY="249.0" mnemonicParsing="false" text="Saturday" />
+      <CheckBox layoutX="504.0" layoutY="249.0" mnemonicParsing="false" text="Sunday" />
+      <Label layoutX="221.0" layoutY="222.0" text="Add work days" textFill="#74b2e8">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="34.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
+      <ChoiceBox layoutX="110.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
+      <ChoiceBox layoutX="217.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
+      <ChoiceBox layoutX="293.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
+      <ChoiceBox layoutX="393.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
+      <ChoiceBox layoutX="469.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
+      <RadioButton layoutX="67.0" layoutY="292.0" mnemonicParsing="false" text="Morning" />
+      <RadioButton layoutX="232.0" layoutY="292.0" mnemonicParsing="false" text="Afternoon/Evening" />
+      <RadioButton layoutX="434.0" layoutY="292.0" mnemonicParsing="false" text="Nights" />
+   </children>
+</AnchorPane>
