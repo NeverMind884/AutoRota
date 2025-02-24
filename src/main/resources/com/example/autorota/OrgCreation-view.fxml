@@ -24,28 +24,29 @@
          <font>
             <Font size="18.0" />
          </font></Label>
-      <TextField layoutX="205.0" layoutY="153.0" promptText="Company name" />
-      <ComboBox editable="true" layoutX="205.0" layoutY="187.0" prefWidth="150.0" promptText="Add Department" />
-      <CheckBox layoutX="34.0" layoutY="249.0" mnemonicParsing="false" text="Monday" />
-      <CheckBox layoutX="109.0" layoutY="249.0" mnemonicParsing="false" text="Tuesday" />
-      <CheckBox layoutX="185.0" layoutY="249.0" mnemonicParsing="false" text="Wednesday" />
-      <CheckBox layoutX="280.0" layoutY="249.0" mnemonicParsing="false" text="Thursday" />
-      <CheckBox layoutX="359.0" layoutY="249.0" mnemonicParsing="false" text="Friday" />
-      <CheckBox layoutX="424.0" layoutY="249.0" mnemonicParsing="false" text="Saturday" />
-      <CheckBox layoutX="504.0" layoutY="249.0" mnemonicParsing="false" text="Sunday" />
+      <TextField fx:id="comp_name" layoutX="205.0" layoutY="153.0" promptText="Company name" />
+      <ComboBox fx:id="Department" editable="true" layoutX="205.0" layoutY="187.0" prefWidth="150.0" promptText="Add Department" />
+      <CheckBox fx:id="tick_monday" layoutX="34.0" layoutY="249.0" mnemonicParsing="false" text="Monday" />
+      <CheckBox fx:id="tick_tuesday" layoutX="109.0" layoutY="249.0" mnemonicParsing="false" text="Tuesday" />
+      <CheckBox fx:id="tick_wednesday" layoutX="185.0" layoutY="249.0" mnemonicParsing="false" text="Wednesday" />
+      <CheckBox fx:id="tick_thursday" layoutX="280.0" layoutY="249.0" mnemonicParsing="false" text="Thursday" />
+      <CheckBox fx:id="tick_friday" layoutX="359.0" layoutY="249.0" mnemonicParsing="false" text="Friday" />
+      <CheckBox fx:id="tick_saturday" layoutX="424.0" layoutY="249.0" mnemonicParsing="false" text="Saturday" />
+      <CheckBox fx:id="tick_sunday" layoutX="504.0" layoutY="249.0" mnemonicParsing="false" text="Sunday" />
       <Label layoutX="221.0" layoutY="222.0" text="Add work days" textFill="#74b2e8">
          <font>
             <Font size="18.0" />
          </font>
       </Label>
-      <ChoiceBox layoutX="34.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
-      <ChoiceBox layoutX="110.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
-      <ChoiceBox layoutX="217.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
-      <ChoiceBox layoutX="293.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
-      <ChoiceBox layoutX="393.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
-      <ChoiceBox layoutX="469.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
-      <RadioButton layoutX="67.0" layoutY="292.0" mnemonicParsing="false" text="Morning" />
-      <RadioButton layoutX="232.0" layoutY="292.0" mnemonicParsing="false" text="Afternoon/Evening" />
-      <RadioButton layoutX="434.0" layoutY="292.0" mnemonicParsing="false" text="Nights" />
+      <ChoiceBox fx:id="early_start" layoutX="34.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
+      <ChoiceBox fx:id="early_end" layoutX="110.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
+      <ChoiceBox fx:id="middle_start" layoutX="217.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
+      <ChoiceBox fx:id="middle_end" layoutX="293.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
+      <ChoiceBox fx:id="late_start" layoutX="393.0" layoutY="320.0" prefHeight="25.0" prefWidth="69.0" />
+      <ChoiceBox fx:id="late_end" layoutX="469.0" layoutY="320.0" prefHeight="25.0" prefWidth="66.0" />
+      <RadioButton fx:id="select_early" layoutX="67.0" layoutY="292.0" mnemonicParsing="false" text="Morning" />
+      <RadioButton fx:id="select_middle" layoutX="232.0" layoutY="292.0" mnemonicParsing="false" text="Afternoon/Evening" />
+      <RadioButton fx:id="select_late" layoutX="434.0" layoutY="292.0" mnemonicParsing="false" text="Nights" />
+      <Button fx:id="add_org" layoutX="260.0" layoutY="361.0" mnemonicParsing="false" text="Add Organisation" />
    </children>
 </AnchorPane>
